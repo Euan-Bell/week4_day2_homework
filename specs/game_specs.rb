@@ -4,7 +4,7 @@ require_relative '../models/game'
 class TestGame < Minitest::Test
 
   def setup
-    @game = Game.new ("","")
+    @game = Game.new("","")
   end
 
 end
